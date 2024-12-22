@@ -4,6 +4,8 @@ If, for whatever reason, your Netgear ReadyNAS reboots, it will try to find a de
 
 I have encountered this problem a couple of times. It was very painful when I was traveling or not at home at the time, so I decided to fix it: A Raspberry PI Zero in OTG mode can act as a USB mass storage device, and I can remotely load the decryption key in that virtual device.
 
+There is a more detailed write up [here](https://blog.nico.ninja/netgear-readynas-remote-decrypt/).
+
 ## Requirements
 
 * Raspberry PI Zero.
