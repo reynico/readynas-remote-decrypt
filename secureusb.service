@@ -1,0 +1,12 @@
+[Unit]
+Description=Secure USB Storage Service
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/setup-secure-usb.sh
+ExecStop=/usr/local/bin/cleanup-secure-usb.sh
+
+[Install]
+WantedBy=multi-user.target
